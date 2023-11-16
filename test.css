@@ -1,0 +1,54 @@
+body {body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000; /* Couleur de fond de la barre de navigation (noir) */
+    color: #fff; /* Couleur du texte (blanc) */
+    padding: 10px; /* Espacement autour du contenu de la barre de navigation */
+}
+
+.navbar .logo {
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Couleur du texte du logo */
+    font-size: 24px; /* Taille de la police du logo */
+}
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333; /* Couleur de fond de la barre de navigation */
+    overflow: hidden;
+    color: white;
+}
+
+.navbar h1.logo {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Animation de transition pour le changement de couleur au survol */
+}
+
+.nav-links li a:hover {
+    color: lightblue; /* Couleur au survol */
+}
